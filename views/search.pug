@@ -5,7 +5,7 @@ block content
     a.logo(href='/') Hacker News
     form(action='/search' method='GET')
       input.search-input(autofocus='' value=`${searchQuery || ''}` placeholder='Enter a search term' type='search' name='q')
-    a.button.github-button(href='aca pongo mi git ja ja ja') Source code
+    a.button.github-button(href='https://github.com/noeliapaolaantonio2018/hacker-news-master.git') Source code
 
   .container
     if !searchResults || !searchResults.nbHits
